@@ -4,7 +4,8 @@ start=int(input('Enter the start value : '))
 stop=int(input('Enter the stop value : '))
 num=int(input('Enter the number : '))
 for i in range(start,stop+1):
-    print(num,'x',i,'=',i*num)
+    value=i*num
+    print(num,'x',i,'=',value)
 
 
 
@@ -16,8 +17,3 @@ for i in range(start,stop+1):
 
 
 
-#numb=int(input('Enter the number : '))
-#intrange = 12;
-#for f in range(1,11,1):
-#    value=(f*numb)
- #   print(numb,'x',f,'=',numb*f)
